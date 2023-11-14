@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+import logo from './assets/ESCM_Logo.png';
+import { Typography } from '@mui/material';
+import DemoButton from './demoButton';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img
+          src={logo}
+          alt="Ethnic Studies Changemaker Logo"
+          className="App-logo"
+        />
+        <Typography> Welcome to A.R.E.S</Typography>
+        <Typography>Augmented Reality for Ethnic Studies</Typography>
+        <DemoButton label="Web AR Demo" />
       </header>
     </div>
   );
