@@ -12,7 +12,7 @@ import Demo from './components/demo';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/ares-app',
     element: <App />,
   },
   {
