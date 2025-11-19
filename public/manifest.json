@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "A.R.E.S",
+  "name": "Augmented Reality for Ethnic Studies",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,11 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "any",
+  "theme_color": "#003262",
+  "background_color": "#60697c",
+  "permissions": [
+    "camera",
+    "geolocation"
+  ]
 }

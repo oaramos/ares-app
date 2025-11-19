@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sather-gate",
+    "title": "Sather Gate — Free Speech Movement",
+    "latitude": 37.86971,
+    "longitude": -122.25946,
+    "image": "/src/assets/apartheidbanner.jpeg",
+    "audio": "/src/assets/narration.mp3",
+    "description": "Sather Gate has been a focal point for student activism, including the Free Speech Movement.",
+    "credit": "UC Berkeley Ethnic Studies"
+  }
+]
+
+

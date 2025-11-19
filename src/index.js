@@ -7,17 +7,22 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Demo from './components/demo';
+import GpsDemo from './components/gpsDemo';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: '/ares-app',
+    path: '/',
     element: <App />,
   },
   {
     path: '/demo',
     element: <Demo />,
+  },
+  {
+    path: '/gps',
+    element: <GpsDemo />,
   },
 ]);
 

@@ -1,15 +1,20 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .App-logo {
   height: 20vmin;
+  max-height: 150px;
+  min-height: 100px;
   pointer-events: none;
+  margin-bottom: 20px;
 }
 
 
 .App-header {
-  background-color: #60697c;
+  background: linear-gradient(135deg, #60697c 0%, #4a5568 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +22,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
 }
 
 .App-link {
@@ -29,5 +37,18 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Mobile optimizations */
+@media (max-width: 600px) {
+  .App-header {
+    padding: 16px;
+    font-size: calc(8px + 2vmin);
+  }
+  
+  .App-logo {
+    height: 15vmin;
+    max-height: 120px;
   }
 }
