@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ares-app/static/css/main.f95e1aa3.css",
-    "main.js": "/ares-app/static/js/main.3117ac56.js",
+    "main.css": "/ares-app/static/css/main.d64be80f.css",
+    "main.js": "/ares-app/static/js/main.35ab3cd4.js",
     "static/js/787.3fd96e12.chunk.js": "/ares-app/static/js/787.3fd96e12.chunk.js",
     "static/media/narration.mp3": "/ares-app/static/media/narration.7b9ea498b1e613cbf93f.mp3",
     "static/media/ESCM_Logo.png": "/ares-app/static/media/ESCM_Logo.2aac397f098a4a329fb2.png",
@@ -59,17 +59,17 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/ares-app/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-300-normal.woff2": "/ares-app/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/ares-app/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
+    "index.html": "/ares-app/index.html",
     "static/media/roboto-greek-ext-500-normal.woff": "/ares-app/static/media/roboto-greek-ext-500-normal.eaa367bbd0b333a7f80b.woff",
     "static/media/roboto-greek-ext-300-normal.woff": "/ares-app/static/media/roboto-greek-ext-300-normal.392a45a84c081c4b412d.woff",
     "static/media/roboto-greek-ext-400-normal.woff": "/ares-app/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/ares-app/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
-    "index.html": "/ares-app/index.html",
-    "main.f95e1aa3.css.map": "/ares-app/static/css/main.f95e1aa3.css.map",
-    "main.3117ac56.js.map": "/ares-app/static/js/main.3117ac56.js.map",
+    "main.d64be80f.css.map": "/ares-app/static/css/main.d64be80f.css.map",
+    "main.35ab3cd4.js.map": "/ares-app/static/js/main.35ab3cd4.js.map",
     "787.3fd96e12.chunk.js.map": "/ares-app/static/js/787.3fd96e12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f95e1aa3.css",
-    "static/js/main.3117ac56.js"
+    "static/css/main.d64be80f.css",
+    "static/js/main.35ab3cd4.js"
   ]
 }
